@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/basic_app" >
+   <ScrollView 
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:layout_margin="3dp"
+     android:background="#ccFFF68F"
+     >   
+		<RelativeLayout 
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     >
+     
+      <TextView
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/help"
+          android:textSize="20sp" 
+          android:id="@+id/txt1"/>
+      <Button
+          android:id="@+id/dismiss"
+          android:layout_below="@+id/txt1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          style="@android:attr/buttonBarButtonStyle"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentBottom="true"
+          android:text="Dismiss" />
+   
+
+      
+	 </RelativeLayout>
+   </ScrollView>
+</LinearLayout>

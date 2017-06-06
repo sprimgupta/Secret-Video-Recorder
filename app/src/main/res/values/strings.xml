@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpyRecorderandCamera</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+<string name="help">1-This app enables you to record video and audio without shutter
+	    sound and screen preview.\n\n
+	    2-you can record video and audio secretively.\n\n
+	    3-This app enables you to capture video in high and low quality as per need.\n\n
+	    4-You can use front camera also for recording.\n\n
+	    5-You can start any recording(e.g audio and video) and can lock the device.It will continue recording untill you stop it.\n\n
+	    6- You can also take picture by using app camera without shutter sound.</string>
+</resources>
